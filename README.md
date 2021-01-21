@@ -1,39 +1,35 @@
-# fb_video_segmentation
-
-## Interesting:
-- [x] Optical flow --> is used for dedection image depth
-- [ ] tracking-by-detection model
-
+# Masterarbeit
 
 ## Mein Plan:
-1. *Basis Strucktur:* Ein funktionierende EIGENSTÄNDIGES ML architektur bauen, dass video forground and backround segmentation prozess bewältigt.
-
-  --> Ich glaub das ist sehr wichitig, denn wir vollen ja die performanc unser algorithmues maximieren, dafür müssen wir ganz genau wissen, was, wo und wie passiert! Wir müssen alle einflussfaktoen voll unter kontrolle haben und diese jederzeit bie bedarf optimieren können
-
-2. *Verfeinerung:* Auf der Basis kann man dann weitere tweaks anwenden und bisel rumspielen und den prozess effizienter zu gestalten.
-  - *Forschung:* Nach bewerteten Verbesserungen rechaschieren, diese verstehen und gegebenfalls in die Basis einbauen.
-  - *Eigene Ideen:* Eigene Ideen umsetzen.
-
-
-### Tagesablauf:
-- 2h 1x 3DCV Video - An dem darauffolgenden Tag die bearbeitung des videos
-- 2h paper work  (1h editional puffer)
-  - Notizen und zusammenfassung vom paper machen!
-- 3h progrmieren (0.5h editional puffer)
-insgesamt: 8,5 h Maximal am Tag.
+1. *Basis Strucktur:* Ein EIGENSTÄNDIGES funktionierende NN architektur bauen, dass forground and backround video segmentation Prozess bewältigt.
+  --> Ich glaub das ist sehr wichitig, denn wir vollen ja die performanc unseres Algorithmues maximieren, dafür müssen wir ganz genau wissen, was, wo und wie passiert! Wir müssen alle Einflussfaktoen voll unter kontrolle haben um es bei Bedarf optimieren können zu können.
+2. *Verfeinerung:*  Auf der Basis kann man dann weitere Tweaks anwenden und damit rumspielen um den Prozess effizienter zu gestalten.
+3. *Forschung:*    gegebenfalls andere gute Ideen von papern einbauen.
+4. *Eigene Ideen:* Eigene Ideen umsetzen.
 
 
 ---
 ## Toutor
 
 ### To-Do Toutor:
-- GutHub Repo
-- .md Text mit einem Plan
-- Welche Datenstrucktur und GPU packeses ich verwenden will
-  --> Hat er preferencen? Wiel ich kann mich anpassen.
--
+- [x] GutHub Repo
+- [x] .md Text mit einem Plan
+- [ ] Fragen
+
 
 ### Fragen am Toutor:
-- Tipps wie ich mein GitHub Repo ordentlich struckturieren könnte?
-- Tipps, wie cih mein Code Ordentlich struckturieren könnte?
--
++ Welche Datenstrucktur und GPU packeses ich verwenden will
+  --> Hat er preferencen? Wiel ich kann mich anpassen.
++ Tipps wie ich mein GitHub Repo ordentlich struckturieren könnte?
++ Tipps, wie cih mein Code Ordentlich struckturieren könnte?
++ Tensorflow or pytorch?
++ Kann ich erstmal eine normale fb segmentation CNN bauen und es dann später in dem eigendlichen video segmentation CNN einbauen?
++ Optical flow?
+
+#### DAVIS:
++ Was ist ein python wrapper?
++ Soll ich mit dem Datenset von DAVIS mit den angegebenen Programschnittstellen arbeiten und dehren hilfs tools benutzen oder soll ich einfach dehren Datenset nehmen und mir selber was aufbauen
+    - Vorteil: Wäre eine sehr gute Übung
+    - Eventueller Nachteil: Die Freage ist, ob ich mir damit wirklich Arbeit erspare, denn ich muss mich ja in den ganzen Skrioten und techniken derer einarbeiten. Was sagst du? Erspart man sich generell arbeit damit?
+    - Eventueller Nachteil: Vielleicht muss ich auch die Implimentiereung durchführen um später unser Ergebniss mit den Methoden anderer zu vergelichen!?
+    - Eventueller Nachteil: Verliere an performance boost?
