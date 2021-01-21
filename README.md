@@ -9,9 +9,7 @@
 4. *Eigene Ideen:* Eigene Ideen umsetzen.
 
 
----
 ## Toutor
-
 
 ### To-Do Toutor:
 - [x] GutHub Repo
