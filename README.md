@@ -1,6 +1,7 @@
 # Masterarbeit
 
-## Jetziger Plan:
+
+## Mein Plan:
 1. *Basis Strucktur:* Ein EIGENSTÄNDIGES funktionierendes CNN/RNN architektur bauen, dass forground and backround video segmentation Prozess bewältigt.
   --> Ich glaub das ist sehr wichitig, denn wir wollen ja die performanc unseres Algorithmues maximieren, dafür müssen wir ganz genau wissen, was, wo und wie passiert! Wir müssen alle Einflussfaktoen voll unter kontrolle haben um es bei Bedarf optimieren können zu können.
 2. *Verfeinerung:*  Auf der Basis kann man dann weitere Tweaks anwenden und damit rumspielen um den Prozess effizienter zu gestalten.
@@ -8,17 +9,14 @@
 4. *Eigene Ideen:* Eigene Ideen umsetzen.
 
 
-## Neuer Plan: 
-???
-
 ---
 ## Toutor
+
 
 ### To-Do Toutor:
 - [x] GutHub Repo
 - [x] .md Text mit einem Plan
 - [ ] Fragen
-
 
 ### Fragen am Toutor:
 + Welche Datenstrucktur und GPU packeses ich verwenden will
