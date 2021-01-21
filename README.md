@@ -1,12 +1,14 @@
 # Masterarbeit
 
-## Mein Plan:
-1. *Basis Strucktur:* Ein EIGENSTÄNDIGES funktionierende NN architektur bauen, dass forground and backround video segmentation Prozess bewältigt.
-  --> Ich glaub das ist sehr wichitig, denn wir vollen ja die performanc unseres Algorithmues maximieren, dafür müssen wir ganz genau wissen, was, wo und wie passiert! Wir müssen alle Einflussfaktoen voll unter kontrolle haben um es bei Bedarf optimieren können zu können.
+## Jetziger Plan:
+1. *Basis Strucktur:* Ein EIGENSTÄNDIGES funktionierendes CNN/RNN architektur bauen, dass forground and backround video segmentation Prozess bewältigt.
+  --> Ich glaub das ist sehr wichitig, denn wir wollen ja die performanc unseres Algorithmues maximieren, dafür müssen wir ganz genau wissen, was, wo und wie passiert! Wir müssen alle Einflussfaktoen voll unter kontrolle haben um es bei Bedarf optimieren können zu können.
 2. *Verfeinerung:*  Auf der Basis kann man dann weitere Tweaks anwenden und damit rumspielen um den Prozess effizienter zu gestalten.
-3. *Forschung:*    gegebenfalls andere gute Ideen von papern einbauen.
+3. *Forschung:* Gegebenfalls andere gute Ideen von papern einbauen: z.b.: Optical-flow, tracking
 4. *Eigene Ideen:* Eigene Ideen umsetzen.
 
+
+## Neuer Plan: ???
 
 ---
 ## Toutor
@@ -23,8 +25,11 @@
 + Tipps wie ich mein GitHub Repo ordentlich struckturieren könnte?
 + Tipps, wie cih mein Code Ordentlich struckturieren könnte?
 + Tensorflow or pytorch?
-+ Kann ich erstmal eine normale fb segmentation CNN bauen und es dann später in dem eigendlichen video segmentation CNN einbauen?
-+ Optical flow?
++ Kann ich erstmal eine normale fb segmentation CNN/RNN bauen und es dann später in dem eigendlichen video segmentation CNN/RNN einbauen?
++ Optical flow? tracking?
++ **Ich Frage ist:** *Ansatz_1:* Gehen wir einen etwas komplizierten Weg wie es in PRrMVOS versuchen wurde oder *Ansatz_2:* Gehen wir mit einer komplet neue Idee and die Sache ran?*
+  - Mit beides ist eine Verbesserung zu erreichen.
+  - Der zweite Ansatz ist riskanter aber dafür würde dieser bei einem Erfolg signifikant bessere Ergebnisse liefern.
 
 #### DAVIS:
 + Was ist ein python wrapper?
